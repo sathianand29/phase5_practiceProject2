@@ -23,11 +23,11 @@ public class NewTest {
 		this.takeSnapShot(driver, "E:\\eclipse jee 2\\AutomateWebsite2\\src\\test\\java//1.png") ;
 		
 		signin.click();
-		driver.findElement(By.name("email")).sendKeys("8248021764");
+		driver.findElement(By.name("email")).sendKeys("email_id");
 		this.takeSnapShot(driver, "E:\\eclipse jee 2\\AutomateWebsite2\\src\\test\\java//2.png") ;
 		
 		driver.findElement(By.id("continue")).click();
-		driver.findElement(By.name("password")).sendKeys("Ellammal123");
+		driver.findElement(By.name("password")).sendKeys("password");
 		this.takeSnapShot(driver, "E:\\eclipse jee 2\\AutomateWebsite2\\src\\test\\java//3.png") ;
 		
 		driver.findElement(By.id("signInSubmit")).click();
